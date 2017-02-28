@@ -13,7 +13,6 @@ namespace LDSBC_IT_Website.Controllers
         [Route("classes/names/{id}")]
         public IActionResult Names(string id)
         {
-            id = id.ToUpper();
             return View(id);
         }
     }
